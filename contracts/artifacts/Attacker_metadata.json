@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "target",
+						"type": "address"
+					}
+				],
+				"name": "attack",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/7_Force.sol": "Attacker"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/7_Force.sol": {
+			"keccak256": "0x8b7791221ed18a178a2ab1b2c7d16a799e2ae9f6ab6626610668e7835f20729b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://cef5874a878539d3df04ef268eaf1eed57730751847ae53ea4da763911a267a9",
+				"dweb:/ipfs/QmQTYDUwc2hDfX2RguqeHoyGExU6GbioiF64Nq4Kw5HFSj"
+			]
+		}
+	},
+	"version": 1
+}

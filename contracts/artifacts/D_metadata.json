@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.10+commit.fc410830"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "a",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/18_MagicNumber.sol": "D"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/18_MagicNumber.sol": {
+			"keccak256": "0x0463f91a63aad1c1cd5d3ab380957c9b96fca3f0945b1a11fcd8d61481b879d3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4aac14880417ad9e57af4b4d17af3b72036e78f20b6154eee9bc4dc9aea80716",
+				"dweb:/ipfs/QmUPRne9uR97XqWvTtfrCRnyxF3mba6cP85hXZ1Wanxn1M"
+			]
+		}
+	},
+	"version": 1
+}

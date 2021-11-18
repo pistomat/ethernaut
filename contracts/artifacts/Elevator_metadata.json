@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "floor",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_floor",
+						"type": "uint256"
+					}
+				],
+				"name": "goTo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "top",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/11_Elevator.sol": "Elevator"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/11_Elevator.sol": {
+			"keccak256": "0x5d734680a509af86713e28a1eb3ad9e1d8b12ef1c49ef56fb4b68e1659348755",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://019c178ab688307a8d3f9b8a3e3bef389d6038d708dd5995ca97c1a1a6cb06cb",
+				"dweb:/ipfs/QmTc8ZDC3GASx1ii13GMG4jxShNwfk5c9QDNQj44oYTJaH"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes",
+						"name": "_bytecode",
+						"type": "bytes"
+					}
+				],
+				"name": "deployContract",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					},
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/18_MagicNumber.sol": "Deployer"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/18_MagicNumber.sol": {
+			"keccak256": "0xecddbc7ae1ca791790448ede29d3ec8238bb5cfbba1ee47333248a54996e67e6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://20d8e6c480462f3dac33ae1ca57d88bbc724d49e52267bc92e6269d024a3ca71",
+				"dweb:/ipfs/Qmd7muqFTLWi642yYFn9FQqsd5813Ce7nU4267PyeDGWr3"
+			]
+		}
+	},
+	"version": 1
+}

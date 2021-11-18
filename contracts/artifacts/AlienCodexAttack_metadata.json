@@ -1,0 +1,60 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "contract AlienCodex",
+						"name": "_aliencodex",
+						"type": "address"
+					}
+				],
+				"name": "attack",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/19_AlienCodex.sol": "AlienCodexAttack"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/19_AlienCodex.sol": {
+			"keccak256": "0x92f8dfe8da74a6f2d52fda1005b18b88648f97ece8b64cd9a450ede572be1883",
+			"urls": [
+				"bzz-raw://b79cef016a98ffac8e1ecedbe0cefa463d8f3cd3a2efd2c08a9a35e02e112c9d",
+				"dweb:/ipfs/Qmb5RekTt1fd6AnAm5VfmSULwd7LrqhP8pWm9HZNbTUEtm"
+			]
+		},
+		"contracts/Ownable.sol": {
+			"keccak256": "0x9134d517de37c7aec1576e7b2ee731c590b6f1b3b0763516b93d8b2f6b164b2b",
+			"urls": [
+				"bzz-raw://c06b21154daace020cd05989e03a38f905dcdc6ead46fa1f3714ca4bf3311194",
+				"dweb:/ipfs/QmWwcSLszJt1CQopsgG97TKiuvJspNgQSyGoucDNKWeCPC"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_telephone",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_owner",
+						"type": "address"
+					}
+				],
+				"name": "changeOwner",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/4_Telephone.sol": "TelephoneOwnerChanger"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/4_Telephone.sol": {
+			"keccak256": "0x605c1df808e85120c2d4b1aa20987b3d91509f13fa18b2b61093ae1a95b0e8a1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://46a9453d462f1499a4f8e6b4f1757674a041d097a0847f967681d778a89453e8",
+				"dweb:/ipfs/QmRXW3DX1bYZaxAg47EEXt97HgV6Z6uLcr5oy53eiFqNgK"
+			]
+		}
+	},
+	"version": 1
+}

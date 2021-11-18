@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/12_Privacy.sol": "PrivacyAttack"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/12_Privacy.sol": {
+			"keccak256": "0x0506e09d2d6d4fea9e656ef744bf21ca4e67a5fae025bb013305013eb99d5b46",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bd39ca8747d1359190da79a25b58f43304c896c890196ba33cf7a7beebcb6893",
+				"dweb:/ipfs/QmSQamL9upzoTcnSZFrq89RKNmZX7pEZCG7BcixCRwpBDA"
+			]
+		}
+	},
+	"version": 1
+}
